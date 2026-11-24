@@ -95,6 +95,13 @@ desktop.ini
 *.pid
 *.seed
 
+# 后端文件型数据产物（采集点、试算样本批、围栏修订与试算结果）
+/data/
+**/data/geo_points/
+**/data/trial_samples/
+**/data/fence_revisions/
+**/data/fence_trials/
+
 # BEGIN S11 LOCAL SNAPSHOT EXCLUSIONS
 **/.git/**
 **/.hg/**

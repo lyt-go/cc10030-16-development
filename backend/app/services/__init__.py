@@ -20,6 +20,7 @@ from app.services.dedup_merge import DedupMergeService
 from app.services.geo_snapshot import GeoSnapshotService
 from app.services.geo_backfill import GeoBackfillService
 from app.services.geo_export import GeoExportService
+from app.services.inspection_appointment import InspectionAppointmentService
 
 SERVICES: dict[str, BaseModuleService] = {
     "geo_source": GeoSourceService(),
@@ -40,6 +41,7 @@ SERVICES: dict[str, BaseModuleService] = {
     "geo_snapshot": GeoSnapshotService(),
     "geo_backfill": GeoBackfillService(),
     "geo_export": GeoExportService(),
+    "inspection_appointment": InspectionAppointmentService(),
 }
 
 
